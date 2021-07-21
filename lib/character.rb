@@ -1,6 +1,8 @@
 class Character
 
-attr_reader :name, :actor, :salary
+attr_reader :name,
+            :actor, 
+            :salary
 
   def initialize(info)
     @name = info[:name]
